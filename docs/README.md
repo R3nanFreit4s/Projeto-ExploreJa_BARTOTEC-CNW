@@ -19,6 +19,35 @@
 
 ---
 
+## 📦 Conteinerização com Docker
+
+Como parte dos requisitos da disciplina de CNW, este projeto foi configurado para rodar em um ambiente *Docker*. A conteinerização garante que o site possa rodar em qualquer máquina de forma padronizada para fins de desenvolvimento.
+
+* *Dockerfile:* O repositório possui um arquivo Dockerfile que configura o ambiente necessário para rodar o aplicativo PHP.
+
+### 🛠 Como Rodar o Projeto Localmente (via Docker)
+
+1.  *Baixar a Imagem:*
+    Fazer o pull da imagem oficial. rnthefirst/exploreja:v1.0, a tag da imagem que você usou:**
+
+    bash
+    docker pull rnthefirst/exploreja:v1.0
+    
+
+2.  *Rodar o Container:*
+    Após o download, execute mapeando a porta local para a porta do container: == Coloca a porta usada e a Tag, igual em cima
+    bash
+    docker run -d -p 8080:80 rnthefirst/exploreja:v1.0
+    
+
+3.  *Acessar o Site:*
+    Abra no navegador: 8080
+    
+    http://localhost:8080
+    
+
+---
+
 ## 🛠 Tecnologias Utilizadas
 
 | Categoria | Tecnologias |
@@ -26,6 +55,7 @@
 | *Front-end* | HTML, CSS, Bootstrap, JavaScript |
 | *Back-end* | PHP |
 | *Banco de Dados* | MySQL |
+| *Conteinerização* | Docker |
 
 ---
 
@@ -34,4 +64,4 @@
 * *Antonella Cobianchi Prucoli*
 * *Heloisa Fernandes de Oliveira*
 * *Matheus Cornélio Amorim*
-* *Renan Leme de Freitas*
+* *Renan Leme de Freitas*
