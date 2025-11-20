@@ -1,5 +1,8 @@
 <!-- Faz a ligação com a lógica principal -->
-<?php include 'public/exploreja 8.0/COMPONENTES/indexdados.php'; ?>
+<?php
+$base_component_path = __DIR__ . '/public/exploreja 8.0/';
+?>
+<?php include 'COMPONENTES/indexdados.php'; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
