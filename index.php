@@ -1,5 +1,5 @@
 <!-- Faz a ligação com a lógica principal -->
-<?php include 'COMPONENTES/indexdados.php'; ?>
+<?php include 'public/exploreja 8.0/COMPONENTES/indexdados.php'; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
